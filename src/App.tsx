@@ -16,8 +16,8 @@ import Payment from './pages/Payment';
 import Finance from './pages/Finance';
 import Profile from './pages/Profile';
 import Team from './pages/Team';
+import Messages from './pages/Messages';
 
-const Messages = () => <div className="p-6">Messages page - Coming soon!</div>;
 const Notification = () => <div className="p-6">Notification page - Coming soon!</div>;
 const Settings = () => <div className="p-6">Settings page - Coming soon!</div>;
 
