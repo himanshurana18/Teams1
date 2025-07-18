@@ -7,7 +7,7 @@ import {
   Users,
   MessageSquare,
   DollarSign,
-  CheckSquare,
+  Bell,
   Settings,
   User,
   CreditCard,
@@ -21,7 +21,7 @@ const navigation = [
   { name: 'Messages', href: '/messages', icon: MessageSquare },
   { name: 'Payment', href: '/payment', icon: CreditCard },
   { name: 'Finance', href: '/finance', icon: DollarSign },
-  { name: 'Tasks', href: '/tasks', icon: CheckSquare },
+  { name: 'Notification', href: '/notification', icon: Bell },
   { name: 'Profile', href: '/profile', icon: User },
   { name: 'Settings', href: '/settings', icon: Settings },
 ];

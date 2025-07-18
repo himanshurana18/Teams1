@@ -18,7 +18,7 @@ import Profile from './pages/Profile';
 import Team from './pages/Team';
 
 const Messages = () => <div className="p-6">Messages page - Coming soon!</div>;
-const Tasks = () => <div className="p-6">Tasks page - Coming soon!</div>;
+const Notification = () => <div className="p-6">Notification page - Coming soon!</div>;
 const Settings = () => <div className="p-6">Settings page - Coming soon!</div>;
 
 function App() {
@@ -58,7 +58,7 @@ function App() {
               <Route path="messages" element={<Messages />} />
               <Route path="payment" element={<Payment />} />
               <Route path="finance" element={<Finance />} />
-              <Route path="tasks" element={<Tasks />} />
+              <Route path="notification" element={<Notification />} />
               <Route path="profile" element={<Profile />} />
               <Route path="settings" element={<Settings />} />
             </Route>
